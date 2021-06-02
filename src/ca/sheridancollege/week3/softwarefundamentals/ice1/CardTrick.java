@@ -31,7 +31,7 @@ public class CardTrick {
             System.out.println(c.getSuit());
             magicHand[i]= new Card();
         }
-        int luckySuit , luckyCard;
+      
          Card luckyCard = new Card();
         luckyCard.setSuit("hearts");
         luckyCard.setValue(2);
