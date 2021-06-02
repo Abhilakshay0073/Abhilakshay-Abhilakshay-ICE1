@@ -31,6 +31,10 @@ public class CardTrick {
             System.out.println(c.getSuit());
             magicHand[i]= new Card();
         }
+        int luckySuit , luckyCard;
+         Card luckyCard = new Card();
+        luckyCard.setSuit("hearts");
+        luckyCard.setValue(2);
          //insert code to ask the user for Card value and suit, create their card
         System.out.println("Please select a cart suit: ");
         System.out.println( "1 for " + Card.SUITS[0] + " 2 for " + Card.SUITS[1] + " 3 for " + Card.SUITS[2] + " 4 for " + Card.SUITS[3]);
@@ -71,6 +75,7 @@ public class CardTrick {
         }
         }
         
-    }}
+    }
+}
 
         
