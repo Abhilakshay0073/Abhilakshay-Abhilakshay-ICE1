@@ -68,7 +68,7 @@ public class CardTrick {
                 //Then report the result here
       
         for(int i = 0;  i<magicHand.length;i++){
-        if( magicHand[i].getValue() == cardValue ){
+        if( magicHand[i].getValue() == cardValue && magicHand[i].getSuit().equals(caardSuit){
             System.out.println("The Magic Hand contain your card.");
         }else{
             System.out.println("The Magic Hand does not contain your card.");
